@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Тайны Вестероса - Выбор персонажа</title>
+  <link rel="stylesheet" type="text/css" href="character.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Тайны Вестероса</h1>
+    <h2>Выберите своего персонажа</h2>
+    <div class="characters">
+      <div class="character">
+        <img src="john_snow.jpg" alt="Джон Сноу">
+        <h3>Джон Сноу</h3>
+        <p>Навыки: ...</p>
+        <button onclick="selectCharacter('Джон Сноу')">Выбрать</button>
+      </div>
+      <div class="character">
+        <img src="arya_stark.jpg" alt="Ария Старк">
+        <h3>Ария Старк</h3>
+        <p>Навыки: ...</p>
+        <button onclick="selectCharacter('Ария Старк')">Выбрать</button>
+      </div>
+      <!-- Добавьте остальных персонажей с аналогичной структурой -->
+    </div>
+    <button class="button-back" onclick="backOnHeader()">Назад</button>
+  </div>
+
+  <script src="character.js"></script>
+</body>
+</html>

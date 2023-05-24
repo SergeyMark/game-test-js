@@ -1,0 +1,53 @@
+body{
+    font-family: 'MedievalSharp', cursive;
+    background-image: url("./pic/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .game-info {
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  .container-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+  
+  .start-button,
+  .settings-button,
+  .profile-button,
+  .exit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    justify-self: flex-start;
+  }
+  
+  .start-button:hover,
+  .settings-button:hover,
+  .profile-button:hover,
+  .exit-button:hover {
+    background-color: #005580;
+  }
